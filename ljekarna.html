@@ -1,0 +1,42 @@
+<html>
+<head>
+<title>Ljekarna</title>
+</head>
+<body>
+<form action="obrada.php" method="POST">
+<table>
+	<tr>
+		<td>Artikal</td>
+		<td>Kolicina</td>
+	<tr>
+
+	<tr>
+		<td>Andol</td>
+		<td><input type="text" name="andol" required /></td>
+		
+	<tr>
+		<td>Aspirin</td>
+		<td><input type="text" name="aspirin" required /></td>
+	<tr>
+	
+	<tr>
+		<td>Vitamin C</td>
+		<td><input type="text" name="vitaminC" required /></td>
+	<tr>
+	
+	<tr>
+		<td>Kako ste saznali za nasu ljekarnu?</td>
+		<td><select name="ljekarna" id="ljekarna">
+				<option value="Vi ste redovni kupac">Redovan kupac.</option>
+				<option value="Radi reklame">TV reklama</option>
+				<option value="Radi oglasa">Halo oglasi</option>
+			</select></td>
+	
+	<tr>
+</table>
+
+<input type="submit" value="Naruči">
+</form>
+</body>
+</html>
+	
